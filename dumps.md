@@ -52,3 +52,10 @@ https://dumps.kr/dumps/amazon-saa-c02/2
 
 15. 정적 사진 저장 웹사이트
 - Amazon S3 앞에 Amazon CloudFront 배포
+
+
+16. 데이터베이스 계층 처리량 제공되는 DynamoDB사용. 트랜잭션볼륨 관리 X. 지연기간 문제.
+- 플래시 판매 기간동안 DynamoDB 온디맨드 모드로 전환
+
+17. 웹애플리케이션 호스팅. 비밀 미디어 파일 캐싱 시작. S3 버킷 자료 저장.  
+- Amazon CloudFront 배포. S3 버킷 CloudFront 엣지 서버에 연결
